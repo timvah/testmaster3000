@@ -992,7 +992,7 @@ class EditorWidget(QWidget):
     # ======================== ВСПОМОГАТЕЛЬНЫЕ ========================
     
     def _split_multi_questions(self, plain_text: str) -> list:
-        question_pattern = re.compile(r'^\s*(\d+)[.)](?!\d)\s*', re.MULTILINE)
+        question_pattern = re.compile(r'^\s*(\d+)\.(?!\d)\s*', re.MULTILINE)
         matches = list(question_pattern.finditer(plain_text))
         
         if not matches:
