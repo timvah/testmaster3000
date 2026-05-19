@@ -1,0 +1,81 @@
+{
+  "title": "Новый тест",
+  "questions": [
+    {
+      "id": "74a810d0-ebcd-4f01-b10d-13b874ab6bfa",
+      "question_text": "Электропривод это",
+      "question_images": [],
+      "answers": [
+        {
+          "id": "7d269818-34e4-4206-8eba-ea04e311514d",
+          "text": "электромеханическое устройство, посредством которого приводятся в движение рабочие органы машин, и обеспечивается управление энергией, преобразованной из электрической в  механическую",
+          "is_correct": true,
+          "images": []
+        },
+        {
+          "id": "9109b84f-0f8e-4688-90f7-09d58c21de4b",
+          "text": "конвертор электрической энергии в механическую",
+          "is_correct": false,
+          "images": []
+        },
+        {
+          "id": "957714ae-814b-4258-ada1-4173ebc73852",
+          "text": "конвертор электрической энергии в тепловую",
+          "is_correct": false,
+          "images": []
+        },
+        {
+          "id": "2d1ca216-7e1d-4ad4-acd1-c13a31e4cc81",
+          "text": "конвертор  механической энергии в электрическую",
+          "is_correct": false,
+          "images": []
+        },
+        {
+          "id": "4b6ed694-ca4d-4a7b-95b5-9b92f2543646",
+          "text": "утилизатор электрической энергии",
+          "is_correct": false,
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "be5e683b-15d0-45f5-91ca-0ad31a22849b",
+      "question_text": "На данном рисунке изображена ￼",
+      "question_images": [
+        "data:image/png;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCABsAawDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2aiiigAooooAKKKKACiiigAooooAQkKpLEADkk9q5C8+J2gWus29itwZ4pQ5e6iRnjjKjpkA7vcjp3xVn4jm7HgLVTZbt/lfPt6+Xkb8f8BzWSy2a+NPBg04Rix+w3PleX93bsSnbQFudBq3iu00610u5gAvINSu47aKSFwVG/OGz3HFTeJ/EEfhnRH1GWB51SRE2IQCdzBe/1rg7fRbnV4NaOiKjw6dry3ljEW2xyMg/eKp6AEk+2an+ImtalqHhCSObw/eWUPnwGSW5mi4/eLjaFZi3P0pf8H9f+AC1t8v0PS6WkHSloQBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRUEN5BcXFxBFIGlt2Cyrg/KSoYD8iDQBPRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRUN3dw2Nq9xcvsijGWbBOO3QVSXxDYMwUG5yTj/AI9Jf/iaANOimu4jRnbOFGTgZ/Ss3/hItP8AW6/8A5v/AImgDUoqG1u4r2ESw79hOPnjZD+TAGq91rNpZzmGYz7xjOy3kcfmFIoAvUVnRa9YzSpGhuNzkKM2soGT7lcCrs0qQQvLJu2IMnapY4+g5NAElFZf/CRaf63X/gHN/wDE1ft7iO6gWaLdsbpuQqfyIBFAEhAZSGAIPBB71xl78LNBu9ZgvUWa2hjDh7WCRkjfcB0APy9OQOveunu9WtbGYRTmbcRu+SCRxj6qpFRxa9YzSpGhuNzkKM2soGT7lcCgC3aWlvYWsdtaQxwQRDakca7VUewrO8UeH08T6I+nSzvAryI+9VBI2sG6H6Vr1lnxFYA4zc/+Ak3/AMTQBp0tUrTVrW+m8qAzbsZ+e3kQY+rKBUl5fwWCK9wZMMcDZEz/APoINAFmisv/AISLT/W6/wDAOb/4mtCGZLiFJY92xxkblKn8jyKAJKKzpddsoJnic3G5CVOLWVhn6hcGmr4gsHYKDc5JwM2ko/8AZaANOimSyLDE8j52oCxwCTgew5NZ3/CRaf63X/gHN/8AE0AalFU7PVLa/kZIDNuUZO+B0GPqwFOvNQgsAhuDL8+cbIXk6f7oOKALVFZ9trdjd3S28UkgmdSyrJC6bgOuNwGetaFABRRRQAVh6L/yMfiL/r4h/wDREdblYei/8jH4i/6+If8A0RHQBuUUUUAU9XvW03Rr69RA7W1vJMFJwGKqTj9K5W88eXFt4H0bXlsomk1CeKJoi5wgfPIOOeldPrtpLf8Ah/UbSAAzT2ssSAnALMpA/U15Uq6lrPg/w74Xi0PVYL6zuo2nkuLcpCqxlsneeOc0AeyUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAUdYs5L/TJLeEqHZkILHA4YH+lXqq6jerp9k9y6FwpUbR15YD+tWqACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAoXVrLLrNhcIoMUKyhznpuAx/Kr9QS3cUV3BbOT5k4YpgcfLjP86noAKKKKACsPRf+Rj8Rf8AXxD/AOiI63K5Hw34h0y+8ZeIbK2uxJcmdW2BG6JGiNzjHDAigDrqKKKACiiigDmfiEuoN4Puhpnml9yecIfvmHI8zHf7uenPpU3hEaQLGf8AsJLtLXzOk4lA3Y52+Zz9ccV0FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAGbr8Mlxo0scKM7lkIVepw6k/pWlUNzcxWcDTTvsjUgE4z1OB+pqagAooooA5O31vxJqtxfNpNjpItba7ltVNzcyK7FDtJwqEYJ96n87xp/wA+Wgf+Bc3/AMbo8E/8e2s/9hi7/wDRhrpaAOa87xp/z5aB/wCBc3/xujzvGn/PloH/AIFzf/G66WigDmvO8af8+Wgf+Bc3/wAbo87xp/z5aB/4Fzf/ABuulooA5rzvGn/PloH/AIFzf/G6teFNdn17TriW7t44Li1u5bSVYnLIWRsEqSAcfWtuuS+Hv/Hjrf8A2Grz/wBDoA62iiigDJ8S6vLomjNdW0KTTtLFDGkjlV3SOqAkgE4BbPSqHneNP+fLQP8AwLm/+N0vjz/kXov+whZ/+lEddJQBzXneNP8Any0D/wAC5v8A43R53jT/AJ8tA/8AAub/AON10tFAHNed40/58tA/8C5v/jdHneNP+fLQP/Aub/43XS0UAc153jT/AJ8tA/8AAub/AON1U1XWvFmiaXc6leafoj21qhllWK6l3lR1xmPGa7Cud+IH/Iga5/15yfyoA6BW3IG9RmnUyL/Up/uin0AUrmzkm1WyulZQkCyBgep3AYx+VXarTXqw31talWLXAcqw6DaATn86s0AcpbeKta1JJJ9L8N/aLQSyRJK9+kZbY5Qnbg45U1N/bfif/oU0/wDBnH/8TR4A/wCRWH/X5d/+lEldLQBzX9t+J/8AoU0/8Gcf/wATXP6HpviDRPEWtasnhiOSTU5FYL9vjXygByM7eck5/AV6LRQBzX9t+J/+hTT/AMGcf/xNH9t+J/8AoU0/8Gcf/wATXS0UAc1/bfif/oU0/wDBnH/8TV7w7rb65a3LT2bWdxa3LW00JkEgDKAeGHUYYVr1zXg7/j48R/8AYYl/9Fx0AdLWV4j1xfD2km8Nu9wxkSGOJWC7ndgq5J6DJ61q1ynxG/5Fy3/7CNr/AOjloAm/tvxP/wBCmn/gzj/+Jo/tvxP/ANCmn/gzj/8Aia6WigDmv7b8T/8AQpp/4M4//iaP7b8T/wDQpp/4M4//AImulooA5r+2/E//AEKaf+DOP/4mj+2/E/8A0Kaf+DOP/wCJrpaKAORv/FmuaTZSXuo+GPKtIcNK6ahG7KucEhcc9elddXNfET/kQdX/AOuP/swrpaACuf1rWdUg1200nRrWzlnmt5LlnupWRQqsq4G1Sc5cV0Fc1c/8lM07/sFXH/o2KgA87xp/z5aB/wCBc3/xujzvGn/PloH/AIFzf/G66WigDmvO8af8+Wgf+Bc3/wAbo87xp/z5aB/4Fzf/ABuulooA5rzvGn/PloH/AIFzf/G6PO8af8+Wgf8AgXN/8brpaKAOYg1rXbTX9OsNastNWK/MiRvaTu5VkQvyGUcYBFdPXNa//wAjl4V/67XP/ohq6WgDM8QxvLosyRIzsWjwqjJ++tadMlmjgjMkzqiDGWY4AycCn0AFFFFAHNeCf+PbWf8AsMXf/ow10tc14J/49tZ/7DF3/wCjDXS0AcB8Ur9tNl8M3IM2yPVEd0izucAZ24HXOOlchc6nc23gy/8AGiXDyatqV0YYjHKzjT42yuCM4DYGORwSteo+I/DS+IbnSJjdNAdNvEuwAm7zCv8AD1GPrWW/w206XVdYlklc6fqyAz2QXAEoORIrZ4I54x3/AAoAw/FnhaHwn4Lk1rSL7UItVstkpumuGZpyzAMHBO0g7s4x2FegaNfPqeiWV7JG0T3ECSMjDBUkA4xXLt4Avb6COw1rxLeaho8bZFoYljZwD8oeQHcwH64FdlHGkMSRxqFRAFUDsB0FAD64XwRq9pYwa3FO8of+2bs/LC7jG/1AIruq5L4e/wDHjrf/AGGrz/0OgDZ/4SPTv+ek/wD4Cy//ABNH/CR6d/z0n/8AAWX/AOJrUooA8v8AGHxCsLvUG0D7PcK0d5ZyJcbG2t+9jcgrjKnGccHOPevTwQQCOhrmfHEEUWhiWONFkl1CyMjqoBfE8YGT3wK6egArynXdYvPhtrerxItxcWmsRtPYH5mEVySQUH5g/TFerVyt74Lm1fxPbalq+rPd2dnKZrWx+zqixt2ywOWxjvQByGneBLnT9Nhv9bl1LW2aIM+mW77HimkwWYsHGcdOa1fhbqt39o1fQrmLUPK0+XMDXgBeNW/5ZswOCe/0NbWqeC5pNek1jQdXl0i9uE2XRWETJOBgKSrHAI9av+FvDEPhmwkiFxLd3dxIZbm6lPzzP6nk444xQBt1zvxA/wCRA1z/AK85P5V0Vc78QP8AkQNc/wCvOT+VAFyPxFpwiQeZP0H/AC7S/wDxNO/4SPTv+ek//gLL/wDE1oxf6pP90U+gDmb3X7Bte0xxJNhVmz/o0vcL/s1T8Q/EvTfD2oadBJb3M0N2XDyrG6mILt52lcsOe3TFdRPZedqFrdeYR9nDjbj724Af0qV7eGSeOd4Y2miBEchUFkB64PbOBQBznw5mS58HQzxEmOW5uXQkYJBnkI4+hrqK5rwD/wAisP8Ar8u//SiSuloA4nx5f6nFrvhrTtN1KawXULiSOZ4kVjgBSPvA+/51l2kniM+JfEnh+LX7meW3sEltZpI4wyyHB6Bcc9Poa6TxN4evNX8SeG7+2aIQ6bcPLOHYgkEADbxz0qKDQNSsvHWt67CtvJHdWccVvG0hUl1A4bg4GR15+lAHKt4/1PxF4f0bS9Im8jxHeT+VdbFGbdUJ3sQemQM/mK9SiQxwohdnKqAWbq3ufeuO8LeD7q08V6p4l1mOzjvrz5I4bbLLCuBk7iBljgZOPX1rtKACuO8NataWF94iiuGkDnV5W+WF3GNkfdQRXY1zXg7/AI+PEf8A2GJf/RcdAGj/AMJHp3/PSf8A8BZf/ia898TfECy1/wA7Ro7W5inttUt1SQoSkirMvJOBtPsfWvVq5D4gwRQeHIvJiSPzNTtXfYoG5jMuScdT70AdfRRRQBxHxZ1vUdA8IR3Wk3L21wbtI96qCSCG45B9BXN+MPiXeRfD/RbvSrgRajfrmV0AJjKAb+OQOSOD2Ndr478PXniPSbO2sDEJIb6K4bzWIG1c5xgHnmuKk+E2p7/EGye2aOdXTTEMrfuleTc27j04780AenaNNJc6JYTTMXkkt43dj3JUEmrtVNKtns9Is7aXHmQwJG205GQoBx+VW6AOa+In/Ig6v/1x/wDZhWj/AMJHp3/PSf8A8BZf/iazviJ/yIOr/wDXH/2YV0tAGX/wkenf89J//AWX/wCJridA8bWvib4lRbbae3NtZ3FtllLLITNHgggcDC85Ax0r0quXeGO3+JGnRwRpGn9l3J2ooAyZoiTgepJNAHUVS1XR7LW7QW2owmWEOHCiRk5Ge6kHvV2igDx/4Wabb3mhazqVwJZLyzuJo4JWnc7F8vpjOD1PUVi+AvG934f8J61BevI0pgFzZGSQlmLHy/lJyODg47816h4T8EJ4W0fUbBb5rgXsryFzFt2blC4xk56Vix/B7Ttuh+ffSSNpeQ5ESgXC7y4BHOME475FADfgm1z/AMIrqCXrytPHqDo3mMWKkImRz716NWF4W8Mr4Zh1CNbkz/bL2S75Tbs34+Xqc4x1rdoA5rX/APkcvCv/AF2uf/RDV0tc1r//ACOXhX/rtc/+iGrpaAMrxL/yApv9+P8A9GLWrTXdY1LSMqqO7HAp1ABRRRQBzXgr/j21j/sMXf8A6MNdLXOzeBNDnup7gw3SSTyNLJ5V7PGpdjknargDJpn/AAgGh/3dQ/8ABlcf/F0AdLRXNf8ACAaH/d1D/wAGVx/8XR/wgGh/3dQ/8GVx/wDF0AdLRXNf8IBof93UP/Blcf8AxdH/AAgGh/3dQ/8ABlcf/F0AdLXJfD3iy1v/ALDV5/6HVj/hAND/ALuof+DK4/8Ai61dG0Sx0Cza102JooWkaVg0jOSx6kliSc0AaFFFFAHN+O/+Reh/7CFn/wClEddJVLVtJtNb097LUIzJbuysVV2Q5UgggqQRggVj/wDCAaH/AHdQ/wDBlcf/ABdAHS0VzX/CAaH/AHdQ/wDBlcf/ABdH/CAaH/d1D/wZXH/xdAHS0VzX/CAaH/d1D/wZXH/xdH/CAaH/AHdQ/wDBlcf/ABdAHS1zvxA/5EDXP+vOT+VM/wCEA0P+7qH/AIMrj/4umyfDvw/NG0csN7JGwwyPqFwwI9CC/NAHSRf6lP8AdFPpAAoAHQcUtAFK5vXh1WytVVSlwshYnqNoBGPzq7UMltFLcxTuuZYQwRs9M9f5VNQBzXgD/kVh/wBfl3/6USV0tcgvw/EJkFp4k1+1ieR5BDDcIqIWYscDZ6k07/hBJ/8AobvEv/gUn/xFAHW0VyX/AAgk/wD0N3iX/wACk/8AiKP+EEn/AOhu8S/+BSf/ABFAHW0VyX/CCT/9Dd4l/wDApP8A4ij/AIQSf/obvEv/AIFJ/wDEUAdbXNeDv+PjxH/2GJf/AEXHVf8A4QSf/obvEv8A4FJ/8RWv4e8PxeHbOeCK6urtp52uJJrpwzsxAByQB2UUAa1cp8Rv+Rct/wDsI2v/AKOWurrL8Q6DB4j0o2NxPPAvmJIJIGCurKQwIJB7igDUorkv+EEn/wChu8S/+BSf/EUf8IJP/wBDd4l/8Ck/+IoA62iuS/4QSf8A6G7xL/4FJ/8AEUf8IJP/ANDd4l/8Ck/+IoA62iuS/wCEEn/6G7xL/wCBSf8AxFH/AAgk/wD0N3iX/wACk/8AiKALHxE/5EHV/wDrj/7MK6WuNufh39tt2gu/E/iKeB+HikuUKuPQjZXZUAFc3c/8lM0//sFXH/o2GukrI1jwxpmu3MNxfxTGaFSiPFcSREKSCRlGGeg/KgDXormv+EA0P+7qH/gyuP8A4uj/AIQDQ/7uof8AgyuP/i6AOlormv8AhAND/u6h/wCDK4/+Lo/4QDQ/7uof+DK4/wDi6AOlormv+EA0P+7qH/gyuP8A4uj/AIQDQ/7uof8AgyuP/i6ADX/+Rx8K/wDXe5/9ENXS1g2HgzRtN1GG+t4bg3MG7y2mu5pQu4EHAZiOhNb1AGT4nIGgTliAA0eSeg/eLV77faf8/UH/AH8FSyRpNG0cqK6MMFWGQfwqr/Yumf8AQOs/+/C/4UAWopopgTFIjgcEqwNNkuYIWCyzRoSM4ZgKS3tLe0UrbQRQqTkiNAoJ/Cm3Gn2d24e5tYJmAwGkjDED05oAPt9p/wA/UH/fwVNHIkqBo3V1PdTkVU/sXTP+gdZ/9+F/wqzDBFbRCOCJIox0VFCgfgKAGveW0blXuIlYdQXAIp0U8UwJikSTHXawOKgl0qwnkaSaxtpHbks0Skn8cVLb2dtaBhbW8UIbqI0C5/KgBZLmCFgss0aEjOGYCmi9tWYBbmEk8ACQc0lxp9nduHubWCZgMBpIwxA9OajTSNOjdXSwtFZTkEQqCD+VAFtmCKWYgKBkkngVB9vtP+fqD/v4KmdEljZJFV0YYZWGQR6Gqn9i6Z/0DrP/AL8L/hQBZininBMUiSY67WBxSSXMELBZZo0JGcMwFJb2dtaBhbW8UIbqI0C5/Km3Gn2l24e5tYJmAwGkjDED05oAPt9p/wA/UH/fwVPkYzkY65qn/Yumf9A6z/78L/hVzaCu0gbcYxjjFAEH2+0/5+oP+/gpVvLZ2CpcQsx4ADgk1D/Yumf9A6z/AO/C/wCFOj0nT4pFkjsbVHU5VlhUEH2OKALLusalnYKo6knAFQ/b7T/n6g/7+CpZYo5o2jlRXRhgqwyD+FVf7F0z/oHWf/fhf8KALaOsiBkYMp6EHINRNeWyMVe4hVhwQXAIqSKKOCNY4UWNF4CqMAfhVeTStPmkaSWxtXdjlmaFSSfc4oAmjuoJm2xTxO3orgmnSzRwqGlkRATgFmAqGDTrK1k8y3s7eJ8Y3JEqn8wKfcWtvdoEuYIplByBIgYA/jQBQn1ENrmnwW9yjJIspkRGBzgDH861arQadZ2sm+3tLeF8Y3Rxqpx9QKs0AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k="
+      ],
+      "answers": [
+        {
+          "id": "deb53760-1607-4e81-9939-e9b42c349846",
+          "text": "разомкнутая структура системы управления электроприводом",
+          "is_correct": true,
+          "images": []
+        },
+        {
+          "id": "7b555688-ad07-42af-8542-f68657eb1521",
+          "text": "замкнутая структура системы управления электроприводом",
+          "is_correct": false,
+          "images": []
+        },
+        {
+          "id": "57c95d09-fc3d-47a9-885b-ea9e7e02c51d",
+          "text": "линейная структура системы управления электроприводом",
+          "is_correct": false,
+          "images": []
+        },
+        {
+          "id": "79142ba8-46b3-4003-9883-4a48754d876a",
+          "text": "кубическая структура системы управления электроприводом",
+          "is_correct": false,
+          "images": []
+        },
+        {
+          "id": "f066f116-b1a0-40f2-ac5c-e69434358520",
+          "text": "3-D структура системы управления электроприводом",
+          "is_correct": false,
+          "images": []
+        }
+      ]
+    }
+  ]
+}
