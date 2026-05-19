@@ -47,7 +47,7 @@ class QuestionParser:
             if not line:
                 continue
             # Пробуем найти маркер в начале строки (2-3 символа)
-            match = re.match(r'^([a-zA-Zа-яА-ЯёЁ]\s*[.)]\s*|\d+\s*[.)]\s*)', line)
+            match = re.match(r'^([a-zA-Zа-яА-ЯёЁ]\s*[.)]\s*|\d+\s*[.)](?!\d)\s*)', line)
             if match:
                 marker = match.group(1).strip()
                 if marker not in candidates:
@@ -99,9 +99,9 @@ class QuestionParser:
             
         # Убираем номер вопроса в начале первой строки, чтобы он не определялся как маркер ответа
         first_line_stripped = lines[0].strip()
-        num_match = re.match(r'^(\d+[.)])\s+', first_line_stripped)
+        num_match = re.match(r'^(\d+[.)])(?!\d)\s*', first_line_stripped)
         if num_match:
-            lines[0] = first_line_stripped[len(num_match.group(0)):]
+            lines[0] = first_line_stripped[len(num_match.group(0)):].strip()
         
         markers = self._detect_markers(lines)
         

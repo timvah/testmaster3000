@@ -547,9 +547,26 @@ class EditorWidget(QWidget):
         html_for_text = re.sub(r'<v:imagedata[^>]*>', extract_and_replace_img, html_for_text, flags=re.IGNORECASE)
         
         # Извлекаем plain_text, сохраняя плейсхолдеры и разрывы строк
-        # Преобразуем блочные теги в переносы строк, чтобы слова не слипались в одну строку
-        html_for_text = re.sub(r'<(?:p|div|br|tr|li|h[1-6])[^>]*>', '\n', html_for_text, flags=re.IGNORECASE)
-        html_for_text = re.sub(r'</(?:p|div|tr|li|h[1-6])>', '\n', html_for_text, flags=re.IGNORECASE)
+        # Преобразуем списки в ответы с маркерами (a), b), c)...)
+        li_counter = 0
+        def replace_li(match):
+            nonlocal li_counter
+            marker = chr(97 + (li_counter % 26)) + ")"
+            li_counter += 1
+            return f"\n{marker} "
+            
+        def reset_ol(match):
+            nonlocal li_counter
+            li_counter = 0
+            return "\n"
+            
+        html_for_text = re.sub(r'<ol[^>]*>', reset_ol, html_for_text, flags=re.IGNORECASE)
+        html_for_text = re.sub(r'<ul[^>]*>', reset_ol, html_for_text, flags=re.IGNORECASE)
+        html_for_text = re.sub(r'<li[^>]*>', replace_li, html_for_text, flags=re.IGNORECASE)
+        
+        # Преобразуем остальные блочные теги в переносы строк, чтобы слова не слипались в одну строку
+        html_for_text = re.sub(r'<(?:p|div|br|tr|h[1-6])[^>]*>', '\n', html_for_text, flags=re.IGNORECASE)
+        html_for_text = re.sub(r'</(?:p|div|tr|li|h[1-6]|ol|ul)>', '\n', html_for_text, flags=re.IGNORECASE)
         
         plain_text = re.sub(r'<[^>]+>', '', html_for_text)
         plain_text = re.sub(r'&nbsp;', ' ', plain_text)
@@ -975,7 +992,7 @@ class EditorWidget(QWidget):
     # ======================== ВСПОМОГАТЕЛЬНЫЕ ========================
     
     def _split_multi_questions(self, plain_text: str) -> list:
-        question_pattern = re.compile(r'^\s*(\d+)\.\s+', re.MULTILINE)
+        question_pattern = re.compile(r'^\s*(\d+)[.)](?!\d)\s*', re.MULTILINE)
         matches = list(question_pattern.finditer(plain_text))
         
         if not matches:

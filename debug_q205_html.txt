@@ -1,0 +1,28 @@
+:none'><span lang=RU style='font-size:
+14.0pt;line-height:115%;font-family:"Times New Roman",serif'>205.</span><span
+lang=RU> В системе </span><span lang=EN-US>h</span><span lang=RU>-параметров
+статическому коэффициенту усиления транзистора по току соответствует</span></p>
+
+<ol style='margin-top:0cm' start=1 type=A>
+ <li class=MsoNormal style='margin-bottom:0cm;line-height:normal;text-autospace:
+     none'><span lang=EN-US>h</span><sub><span lang=RU>21Э</span></sub></li>
+ <li class=MsoNormal style='margin-bottom:0cm;line-height:normal;text-autospace:
+     none'><span lang=EN-US>h</span><sub><span lang=RU>21б</span></sub></li>
+ <li class=MsoNormal style='margin-bottom:0cm;line-height:normal;text-autospace:
+     none'><span lang=EN-US>h</span><sub><span lang=RU>11Э</span></sub></li>
+ <li class=MsoNormal style='margin-bottom:0cm;line-height:normal;text-autospace:
+     none'><span lang=EN-US>h</span><sub><span lang=RU>11б</span></sub></li>
+ <li class=MsoNormal style='margin-bottom:0cm;line-height:normal;text-autospace:
+     none'><span lang=EN-US>h</span><sub><span lang=RU>22Э</span></sub><span
+     lang=RU> </span></li>
+</ol>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=RU style='font-size:
+14.0pt;line-height:115%;font-family:"Times New Roman",serif'>206. </span><span
+lang=RU>В каком классе работает транзисторный усилитель мощности, если ток
+покоя оконечного каскада не равен нулю</span></p>
+
+<ol style='margin-top:0cm' start=1 type=A>
+ <li class=MsoNormal style='margin-bottom:0cm;line-height:normal;text-autospace:
+     none'><span lang=EN-US>B</span></li>
+ <li cla
